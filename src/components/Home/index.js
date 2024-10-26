@@ -1,6 +1,7 @@
 import Navbar from '../Navbar';
 import About from '../About'
 import Rooms from '../Rooms'
+import KingsukhServices from '../KingsukhServices';
 import "./index.css";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <div className="home-box"><button className="book-btn">BOOK NOW</button></div>
       <About />
       <Rooms />
+      <KingsukhServices />
     </div>
   );
 };
